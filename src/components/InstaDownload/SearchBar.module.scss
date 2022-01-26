@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .input {
+    padding: 10px;
+    flex: 1;
+    margin-right: 20px;
+  }
+  .searchImageContainer {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
