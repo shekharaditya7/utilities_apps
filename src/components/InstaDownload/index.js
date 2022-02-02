@@ -9,6 +9,7 @@ function InstaDownload() {
 
   async function handleSearchClick(searchUrl) {
     try {
+      // get Graoh API for this : CB
       const data = await fetch("/p/CVxtR4UIneS/?__a=1").then((res) =>
         res.json()
       );
